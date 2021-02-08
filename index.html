@@ -9,6 +9,29 @@
 <body>
     <div class="container">
 
+        <div class="controls">
+            <h1>ETCH-A-SKETCH</h1>
+
+            <button id='clear-btn'>CLEAR</button>
+            
+            <div>
+                <input type="range" name="size" id="grid-size" value="10" min="8" max="48">
+                <label for="grid-size" id="lbl-size"></label>
+            </div>
+            
+            <button id='new-btn'>NEW GRID</button>   
+
+            <div>
+                <label for="color">Choose a color</label>
+                <br>
+                <input type="color" name="color" id="color" value="#FF0000">
+            </div>
+        </div>
+
+        <div class="grid-container">
+
+        </div>
+
     </div>
 
     <script src="main.js"></script>

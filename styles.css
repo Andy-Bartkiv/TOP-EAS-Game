@@ -1,0 +1,48 @@
+body {
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls {
+    border:1px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls > *{
+    margin: 5px;
+}
+
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    max-height: 480px;
+    width: 100%;
+    padding: 10px;
+    border:1px dotted gray;
+}
+
+.div-rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-box {
+    padding: 4px;
+    border: 0.1px dotted gray;
+    text-align: center;
+}
+
+.m-over {
+    background-color: blue;
+}
