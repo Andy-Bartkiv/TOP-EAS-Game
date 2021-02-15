@@ -10,27 +10,32 @@
     <div class="container">
 
         <div class="controls">
-            <h2>ETCH-A-SKETCH</h2>
 
-            <button id='clear-btn'>CLEAR</button>
-            
-            <div>
-                <input type="range" name="size" id="grid-size" value="10" min="8" max="48">
-                <label for="grid-size" id="lbl-size"></label>
+            <h2 class = "ctrls">ETCH-A-SKETCH</h2>
+
+            <div class = "ctrls">
+                <p id="g-s">Grid Size =
+                    <span class="gsv">id</span>
+                    x
+                    <span class="gsv">cl</span>
+                </p>
+                <input type="range" name="size" id="grid-size" value="10" min="8" max="64">
+
             </div>
             
-            <button id='new-btn'>NEW GRID</button>   
+            <button class = "ctrls" id='new-btn'>NEW GRID</button>   
 
-            <div>
-                <label for="color">Choose a color</label>
-                <br>
+            <div class = "ctrls" id='div-color'>
                 <input type="color" name="color" id="color" value="#FF0000">
             </div>
+
+            <button class = "ctrls" id='clear-btn'>CLEAR</button>
+
         </div>
 
         <div class="grid-container">
-
         </div>
+
 
     </div>
 
