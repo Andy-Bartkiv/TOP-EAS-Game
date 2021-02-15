@@ -45,9 +45,10 @@ body {
 
 #color {
     width: 100%;
+    max-width: -webkit-fill-available;
     height: 1.8rem;
     border-radius: 9px;
-    padding: 4px;
+    padding: 2px 25px;
 }
 
 #g-s {
