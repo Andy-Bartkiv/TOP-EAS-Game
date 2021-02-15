@@ -1,4 +1,4 @@
-PROJECT: ETCH-A-SKETCH
+#PROJECT: ETCH-A-SKETCH
 
 The Odin Project Web-Development Fundamentals Course.
 
